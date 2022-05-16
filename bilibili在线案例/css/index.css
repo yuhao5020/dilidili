@@ -82,6 +82,7 @@ li{
     color: #515254;
     border-radius: 8px;
     font-weight:500;
+    transition:all .4s;
 }
 
 .ncenter a:hover{

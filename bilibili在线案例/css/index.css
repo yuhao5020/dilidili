@@ -4,6 +4,10 @@
     
 }
 
+body{
+    min-width:1600px;
+}
+
 
 li{
     list-style: none;

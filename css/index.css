@@ -4,6 +4,10 @@
     
 }
 
+body{
+    min-width: 1920px;
+}
+
 
 li{
     list-style: none;
@@ -44,10 +48,11 @@ li{
     width: 100%;
     height: 100%;
     border-radius: 24px;
+    transition: all .4s;
 }
 
 .nleft img:hover{
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nleft .last{
@@ -82,6 +87,7 @@ li{
     color: #515254;
     border-radius: 8px;
     font-weight:500;
+    transition: all .4s;
 }
 
 .ncenter a:hover{
@@ -130,7 +136,7 @@ li{
     transition: all .4s;
 }
 
-.box img:hover{
+.box .leftbox>img:hover{
     transform: scale(1.1);
 }
 
@@ -214,7 +220,6 @@ li{
     width: 100%;
     height:153px;
     border-radius: 10px;
-    
 }
 
 .rightbox ul li .cover{

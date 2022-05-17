@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width:1920px;
+}
+
 .header .hright li .avatar img{
     width: 100%;
 }
